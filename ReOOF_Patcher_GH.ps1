@@ -44,7 +44,7 @@ Write-Host 'Checking your internet connectivity before proceeding to the install
 #internet detection gate, prevents from proceeding if device has not established any connection to any access point
 Start-Sleep -Seconds 2.7
 If ((Get-NetConnectionProfile).IPv4Connectivity -contains "Disconnected" -or (Get-NetConnectionProfile).IPv6Connectivity -contains "Disconnected") {
-    Write-Host -NoNewLine '> ERROR: Looks like you are having connectivity issues. We cannot reach to the remote server and will only continue once connected to the Internet. '
+    Write-Host -NoNewLine '> ERROR: Looks like you are having connectivity issues. We cannot reach the remote server and will only continue once connected to the Internet. '
     Start-Sleep -Seconds 1
     Write-Host 'Press any key to exit.'
     $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
