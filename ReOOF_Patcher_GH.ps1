@@ -43,7 +43,7 @@ if (Test-Path -Path $Folder) {
 Write-Host 'Checking your internet connectivity before proceeding to the installation process...'
 #internet detection gate, prevents from proceeding if device has not established any connection to any access point
 Start-Sleep -Seconds 2.7
-If ((Get-NetConnectionProfile).IPv4Connectivity -contains "Disconnected" -or (Get-NetConnectionProfile).IPv6Connectivity -contains "Disconnected") {
+If ((Get-NetConnectionProfile).IPv4Connectivity -contains "NoTraffic" -or (Get-NetConnectionProfile).IPv6Connectivity -contains "NoTraffic") {
     Write-Host -NoNewLine '> ERROR: Looks like you are having connectivity issues. We cannot reach the remote server and will only continue once connected to the Internet. '
     Start-Sleep -Seconds 1
     Write-Host 'Press any key to exit.'
