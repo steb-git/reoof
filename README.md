@@ -63,7 +63,7 @@ And finally, run the scipt by inputting:
 ./ReOOF_Patcher_GH.ps1
 ```
 
-## Wait, installation steps is too complicated! D:
+## Wait, installation steps are too complicated! D:
 Alternatively, If you aren't a fan of CLI and highly-technical stuff and want a quicker, easier way to install this script, you can do these steps:
 * [Install the package directly](https://github.com/steb-git/reoof/archive/refs/heads/main.zip) by clicking this hyperlink.
 * Extract the `.zip` file that you've just downloaded on any of your preferred folders
@@ -73,6 +73,7 @@ Alternatively, If you aren't a fan of CLI and highly-technical stuff and want a 
 You can help me amplify my efforts on making reOOF better by 
 * [Submitting new feature requests/reporting issues](https://github.com/steb-git/reoof/issues/new)
 * [Submitting a Pull Request](https://github.com/steb-git/reoof/compare) and add new additions of the installer code yourself
+* Talk about new features on our [Discord support server](https://discord.com/invite/4XNhkcd)!
 * **Sharing** this repository with your friends who might find this useful, there is strength in numbers! <3  
 
 I am aiming this to be as user-friendly as possible, if some fuzzy elements can't be combed out, you may [submit a new suggestion](https://github.com/steb-git/reoof/issues) on how can i do so!
