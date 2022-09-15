@@ -16,8 +16,8 @@ How it works is it uses native automation that PowerShell delivers to automatica
 
 ## Installation
 
-Installation is simple, you may clone this repository on your computer using `git`
-#### **HOLD UP!** Unless if you know what you're doing, do not run these steps on a PowerShell terminal with Administrator privileges!
+Installation is simple, you may clone this repository on your computer using `git`  
+**HOLD UP!** Unless if you know what you're doing, __do not run these steps__ on a __PowerShell terminal with Administrator privileges!__
 
 Requires `scoop` or `choco` as  package managers to install or clone git repositories on PowerShell.
 
