@@ -1,10 +1,14 @@
 # @steb-git/reoof
-    
-     ██████╗ ███████╗ ██████╗  ██████╗ ███████╗██╗
-     ██╔══██╗██╔════╝██╔═══██╗██╔═══██╗██╔════╝██║
-     ██████╔╝█████╗  ██║   ██║██║   ██║█████╗  ██║
-     ██╔══██╗██╔══╝  ██║   ██║██║   ██║██╔══╝  ╚═╝
-     ██║  ██║███████╗╚██████╔╝╚██████╔╝██║     ██╗
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/steb-git/reoof?logo=powershell">
+<a href="https://github.com/steb-git/reoof/stargazers"><img src="https://img.shields.io/github/stars/steb-git/reoof" alt="Stars Badge"/></a>
+<a href="https://github.com//steb-git/reoof//network/members"><img src="https://img.shields.io/github/forks/steb-git/reoof?logo=fork" alt="Forks Badge"/></a>
+<a href="https://github.com/steb-git/reoof/pulls"><img src="https://img.shields.io/github/issues-pr/steb-git/reoof" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/steb-git/reoof/issues"><img src="https://img.shields.io/github/issues/steb-git/reoof" alt="Issues Badge"/></a>
+<a href="https://github.com/qsteb-git/reoof/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/steb-git/reoof?color=2b9348"></a>
+<img alt="Maintenance" src="https://img.shields.io/maintenance/yes/2022">
+<a href="https://github.com/steb-git/reoof/blob/master/LICENSE"><img src="https://img.shields.io/github/license/steb-git/reoof?color=2b9348" alt="License Badge"/></a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/steb-git/reoof">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/the_steb?style=social">
 
 A user-friendly Powershell based SFX patcher for Roblox Windows  
 Made by [@the_steb](https://twitter.com/the_steb) on Twitter
@@ -84,4 +88,4 @@ With the roadmap, I can take track with the development progress of reOOF, inclu
   [   PLANNED   ] - ReOOF GUI
   ```
 ___
-This project is protected with the [MIT License](https://github.com/steb-git/reoof/blob/main/LICENSE), you can find additional information inside the script's comment lines.
+<p align="center">This project is protected with the [MIT License](https://github.com/steb-git/reoof/blob/main/LICENSE), you can find additional information inside the script's comment lines.
