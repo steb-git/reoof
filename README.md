@@ -69,7 +69,7 @@ Alternatively, If you aren't a fan of CLI and highly-technical stuff and want a 
 You can help me amplify my efforts on making reOOF better by 
 * [Submitting new feature requests/reporting issues](https://github.com/steb-git/reoof/issues/new)
 * [Submitting a Pull Request](https://github.com/steb-git/reoof/compare) and add new additions of the installer code yourself
-* **Sharing** this repository with your friends who might find this useful, there is strength in numbers! <3
+* **Sharing** this repository with your friends who might find this useful, there is strength in numbers! <3  
 I am aiming this to be as user-friendly as possible, if some fuzzy elements can't be combed out, you may [submit a new suggestion](https://github.com/steb-git/reoof/issues) on how can i do so!
 
 ## Development Roadmap
