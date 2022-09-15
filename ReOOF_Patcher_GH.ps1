@@ -22,8 +22,31 @@ Start-Sleep -Seconds 0.5
 Write-Host 'Version 1.00'
 Write-Host  
 Start-Sleep -Seconds 1.5
+
+# EXPERIMENTAL - if device runs roblox on a non-windows, unix based machine, script will use workaround through getuiservice on linux
+# This requires PowerShell 7 from ubuntu software or apt-get, first tested on ubuntu on winebased roblox
+if ({$OsType -eq "Linux"}) {
+        Write-Host 'Oof! Looks like you are trying to run this installer on a Linux machine. This has to be executed on a Windows based machine.' -ForegroundColor Magenta
+        Write-Host
+        Start-Sleep -Seconds 0.5
+        Write-Host 'Press any key to exit.'
+        $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
+        exit
+}
+# lmao i ended up tying up support for linux machines
+else {}
+# Windows version checker, since Windows PCs running at Win7 and below would not work with this script.
+if ([System.Environment]::OSVersion.Version | Where-Object -FilterScript {($_.Major -match "12" -or "11" -or "8" -or "8.1")}) {}
+    else {
+        Write-Host 'Oof! This installer does not support this version of Windows anymore. You might consider upgrading your Windows PC or try this script instead on a Computer that runs on Windows 8, 8.1, 10 or 11.' -ForegroundColor Magenta
+        Write-Host
+        Start-Sleep -Seconds 0.5
+        Write-Host 'Press any key to exit.'
+        $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
+        exit
+    }
 # Roblox installation evaluation gate, prevents from proceeding if no installation of roblox exists.
-Write-Host 'Scannning for local Roblox client installations on this computer...'
+Write-Host 'Searching for local Roblox client installations on this computer...'
 Start-Sleep -Seconds 1.9
 $Folder = '~\AppData\Local\Roblox'
 if (Test-Path -Path $Folder) {
@@ -34,7 +57,7 @@ if (Test-Path -Path $Folder) {
     Write-Host '> ERROR: Roblox must be installed in order to proceed with the Installation.' -ForegroundColor Red
     Write-Host 'You may download Roblox at https://roblox.com/home'
     Write-Host
-    Start-Sleep -Seconds 1
+    Start-Sleep -Seconds 0.5
     Write-Host 'Press any key to exit.'
     $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
     exit
@@ -83,4 +106,6 @@ Start-Sleep -Seconds 0.5
 Write-Host --------------------------- -ForegroundColor Magenta
 Write-Host !   'Press any key to exit.'   !
 Write-Host --------------------------- -ForegroundColor Magenta
+# Debug purposes, doing cd all over again feelsawfulman.png D:
+Set-Location -Path ~\git\reoof
 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
