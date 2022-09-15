@@ -14,10 +14,21 @@ This is a simple SFX Patcher for Roblox on Windows based Roblox clients with val
 It originally aims to restore the old ouch.ogg sound effect on Roblox where it was recently replaced with a [newer *ugly* version of the sound effect.](https://www.youtube.com/watch?v=rok4FpHzZ20)  
 How it works is it uses native automation that PowerShell delivers to automatically execute these commands at once.
 
+### Supported Versions:
+* PowerShell Core 5 or sooner versions (Although PowerShell 7 is highly reccomended)
+* Windows 8
+* Windows 8.1
+* Windows 10
+* Windows 11  
+
+Attempting to run this script with an outdated version of Windows or running this script on a Linux based sytem will otherwise trigger a detection gate that blocks the download process due to compatibility issues.
+
 ## Installation
 
 Installation is simple, you may clone this repository on your computer using `git`  
-**HOLD UP!** Unless if you know what you're doing, __do not run these steps__ on a __PowerShell terminal with Administrator privileges!__
+ 
+**HOLD UP!**  
+ Unless if you know what you're doing, __do not run these steps__ on a __PowerShell terminal with Administrator privileges!__ 
 
 Requires `scoop` or `choco` as  package managers to install or clone git repositories on PowerShell.
 
@@ -58,7 +69,7 @@ Alternatively, If you aren't a fan of CLI and highly-technical stuff and want a 
 You can help me amplify my efforts on making reOOF better by 
 * [Submitting new feature requests/reporting issues](https://github.com/steb-git/reoof/issues/new)
 * [Submitting a Pull Request](https://github.com/steb-git/reoof/compare) and add new additions of the installer code yourself
-* **Sharing** the repository with your friends!
+* **Sharing** this repository with your friends who might find this useful, there is strength in numbers! <3
 
 ## Development Roadmap
 With the roadmap, I can take track with the development progress of reOOF, including a checklist of new features.
