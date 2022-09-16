@@ -36,7 +36,7 @@ if ({$OsType -eq "Linux"}) {
 # lmao i ended up tying up support for linux machines
 else {}
 # Windows version checker, since Windows PCs running at Win7 and below would not work with this script.
-if ([System.Environment]::OSVersion.Version | Where-Object -FilterScript {($_.Major -match "12" -or "11" -or "8" -or "8.1")}) {}
+if ([System.Environment]::OSVersion.Version | Where-Object -FilterScript {($_.Major -match "10" -or "11" -or "8" -or "8.1")}) {}
     else {
         Write-Host 'Oof! This installer does not support this version of Windows anymore. You might consider upgrading your Windows PC or try this script instead on a Computer that runs on Windows 8, 8.1, 10 or 11.' -ForegroundColor Magenta
         Write-Host
