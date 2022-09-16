@@ -1,14 +1,18 @@
 # @steb-git/reoof
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/steb-git/reoof?logo=powershell">
-<a href="https://github.com/steb-git/reoof/stargazers"><img src="https://img.shields.io/github/stars/steb-git/reoof" alt="Stars Badge"/></a>
-<a href="https://github.com//steb-git/reoof//network/members"><img src="https://img.shields.io/github/forks/steb-git/reoof?logo=fork" alt="Forks Badge"/></a>
-<a href="https://github.com/steb-git/reoof/pulls"><img src="https://img.shields.io/github/issues-pr/steb-git/reoof" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/steb-git/reoof/issues"><img src="https://img.shields.io/github/issues/steb-git/reoof" alt="Issues Badge"/></a>
-<a href="https://github.com/qsteb-git/reoof/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/steb-git/reoof?color=2b9348"></a>
-<img alt="Maintenance" src="https://img.shields.io/maintenance/yes/2022">
-<a href="https://github.com/steb-git/reoof/blob/master/LICENSE"><img src="https://img.shields.io/github/license/steb-git/reoof?color=2b9348" alt="License Badge"/></a>
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/steb-git/reoof">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/the_steb?style=social">
+
+![GitHub top language](https://img.shields.io/github/languages/top/steb-git/reoof?style=flat-square&logo=powershell)
+![GitHub issues](https://img.shields.io/github/issues/steb-git/reoof?style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/steb-git/reoof?style=flat-square)
+![GitHub](https://img.shields.io/github/license/steb-git/reoof?color=800000&style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/steb-git/reoof?color=171515&logo=star&style=flat-square)  
+![GitHub forks](https://img.shields.io/github/forks/steb-git/reoof?logo=github&style=flat-square)
+![GitHub watchers](https://img.shields.io/github/watchers/steb-git/reoof?logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/steb-git/reoof?logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/steb-git/reoof?logo=github&style=flat-square)
+![Maintenance](https://img.shields.io/maintenance/yes/2022?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/steb-git/reoof?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/steb-git/reoof?style=flat-square)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/steb-git/reoof?style=flat-square)
 
 A user-friendly Powershell based SFX patcher for Roblox Windows  
 Made by [@the_steb](https://twitter.com/the_steb) on Twitter
@@ -29,7 +33,7 @@ Attempting to run this script with an outdated version of Windows or running thi
 
 ## Installation
 
-Installation is simple, you may clone this repository on your computer using `git`  
+Installation is simple, you may clone this repository on your computer using `git` or by just [jumping here](https://github.com/steb-git/reoof#wait-installation-steps-are-too-complicated-d) if you fancy going shortcuts.
  
 **HOLD UP!**  
  Unless if you know what you're doing, __do not run these steps__ on a __PowerShell terminal with Administrator privileges!__ 
@@ -89,4 +93,4 @@ With the roadmap, I can take track with the development progress of reOOF, inclu
   [   PLANNED   ] - ReOOF GUI
   ```
 ___
-<p align="center">This project is protected with the [MIT License](https://github.com/steb-git/reoof/blob/main/LICENSE), you can find additional information inside the script's comment lines.
+This project is protected by the [MIT License](https://github.com/steb-git/reoof/blob/main/LICENSE), you can find additional information inside the script's comment lines.
