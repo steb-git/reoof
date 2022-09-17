@@ -20,7 +20,7 @@ Write-Host 'ReOOF - a user-friendly SFX patcher for Roblox Windows.' -Foreground
 Write-Host 'Written by @the_steb on Twitter :D (dsc: the_steb#0831)' -ForegroundColor Cyan
 Write-Host 'GitHub Repository Link: https://github.com/steb-git/reoof'
 Start-Sleep -Seconds 0.5
-Write-Host 'Version 1.00'
+Write-Host 'Version 1.03'
 Write-Host  
 Start-Sleep -Seconds 1.5
 
