@@ -17,9 +17,9 @@
 A user-friendly Powershell based SFX patcher for Roblox Windows  
 Made by [@the_steb](https://twitter.com/the_steb) on Twitter
 
-This is a simple SFX Patcher for Roblox on Windows based Roblox clients with value detection gates added as a backend feature (Network Detection, OS Filters, Directory Check).
+This is a simple SFX Patcher for Roblox on Windows based Roblox clients that reverts back the old Death sound effect with the new one. Plus with value detection gates added as a backend feature (Network Detection, OS Filters, Directory Check).
 
-It originally aims to restore the old ouch.ogg sound effect on Roblox where it was recently replaced with a [newer *ugly* version of the sound effect.](https://www.youtube.com/watch?v=rok4FpHzZ20)  
+It originally aims to restore the old ouch.ogg death sound effect on Roblox where it was recently replaced with a [newer *ugly* version of the sound effect.](https://www.youtube.com/watch?v=rok4FpHzZ20)  
 How it works is it uses native automation that PowerShell delivers to automatically execute these commands at once.
 
 ### Supported Versions:
