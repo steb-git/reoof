@@ -95,7 +95,7 @@ set-location -path ~\AppData\Local\Roblox\Versions
 # This part is very important, installs the sound file on the most recent roblox version. If this gets missyntaxed, the installer is ruined.
 Get-ChildItem -in *version* | Where-Object { $_.PSIsContainer } | Sort-Object CreationTime -desc | Select-Object -f 1 | Set-Location
 set-Location -path sounds
-Invoke-WebRequest -uri "https://github.com/steb-git/steb-git.github.io/raw/main/ouch.ogg" -OutFile ( New-Item -Path "ouch.ogg" -Force )
+Invoke-WebRequest -uri "https://steb-git.github.io/ouch.ogg" -OutFile ( New-Item -Path "ouch.ogg" -Force )
 Write-Host File successfully downloaded! 
 Start-Sleep -Seconds 0.5
 Write-Host Checking files...
